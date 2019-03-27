@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ISImageTableViewCell" rowHeight="180" id="Yb8-t9-0Hj" customClass="ISImageTableViewCell" customModule="ImageSearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="169"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Yb8-t9-0Hj" id="4jB-Z3-FFw">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="168.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wcz-DM-sHx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="168.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKj-NW-ihr">
+                        <rect key="frame" x="0.0" y="147.5" width="42" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.11957514549112691" green="0.49050086888872058" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="wcz-DM-sHx" secondAttribute="trailing" id="7IQ-k4-e2I"/>
+                    <constraint firstItem="wcz-DM-sHx" firstAttribute="leading" secondItem="4jB-Z3-FFw" secondAttribute="leading" id="7r1-vO-rSA"/>
+                    <constraint firstAttribute="bottom" secondItem="bKj-NW-ihr" secondAttribute="bottom" id="BYa-MV-3bs"/>
+                    <constraint firstItem="bKj-NW-ihr" firstAttribute="leading" secondItem="4jB-Z3-FFw" secondAttribute="leading" id="HKX-IQ-toc"/>
+                    <constraint firstAttribute="bottom" secondItem="wcz-DM-sHx" secondAttribute="bottom" id="cQ9-HO-aGk"/>
+                    <constraint firstItem="wcz-DM-sHx" firstAttribute="top" secondItem="4jB-Z3-FFw" secondAttribute="top" id="guD-n6-ZaB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="debugLabel" destination="bKj-NW-ihr" id="pfr-Qw-fij"/>
+                <outlet property="largeImageView" destination="wcz-DM-sHx" id="Uxz-XK-X9Y"/>
+            </connections>
+            <point key="canvasLocation" x="-28" y="-182.15892053973016"/>
+        </tableViewCell>
+    </objects>
+</document>
