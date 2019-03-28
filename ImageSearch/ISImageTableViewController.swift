@@ -18,6 +18,8 @@ class ISImageTableViewController: UIViewController, UITableViewDelegate, UITable
     var totalPhotos:Int = 0
     var photoData = [ISFlickrPhoto]()
 
+    // MARK: - View Controller
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
@@ -84,6 +86,7 @@ class ISImageTableViewController: UIViewController, UITableViewDelegate, UITable
 
     // MARK: - Data Prefetch
 
+    // Keep outstanding network operations here, with concurrency guarded by the DispatchQueue.
     var currentPageOperations = Dictionary<Int, BNCNetworkOperation>()
     var currentPageOperationQueue = DispatchQueue.init(label: "ImageSearch.pageoperation.queue")
 

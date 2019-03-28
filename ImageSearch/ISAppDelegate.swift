@@ -17,7 +17,7 @@ class ISAppDelegate: UIResponder, UIApplicationDelegate {
             _ application: UIApplication,
             didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
         ) -> Bool {
-        BNCLogSetDisplayLevel(.none)
+        BNCLogSetDisplayLevel(.all)
         return true
     }
 }

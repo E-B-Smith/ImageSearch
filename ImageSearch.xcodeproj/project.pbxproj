@@ -36,6 +36,7 @@
 		2B54F4FB224BFC0F00FCE3B3 /* BNCLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNCLog.swift; sourceTree = "<group>"; };
 		2B73CCC7224AB5DB0035BC2E /* UIImageView+BNCNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BNCNetworkService.h"; sourceTree = "<group>"; };
 		2B73CCC8224AB5DB0035BC2E /* UIImageView+BNCNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BNCNetworkService.m"; sourceTree = "<group>"; };
+		2B8A4EED224C381C0014A019 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2BD59165224549C000AC4F32 /* ImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD59168224549C000AC4F32 /* ISAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISAppDelegate.swift; sourceTree = "<group>"; };
 		2BD5916A224549C000AC4F32 /* ISImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISImageTableViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		2BD5915C224549C000AC4F32 = {
 			isa = PBXGroup;
 			children = (
+				2B8A4EED224C381C0014A019 /* README.md */,
 				2BD59167224549C000AC4F32 /* ImageSearch */,
 				2BD5917C224549C100AC4F32 /* ImageSearchTests */,
 				2BD59166224549C000AC4F32 /* Products */,
