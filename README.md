@@ -1,6 +1,6 @@
 # ImageSearch
 
-<img src="Artwork/Icon.png" alt=""ImageSearch Icon" width=200>
+<img height="200" src="Artwork/Icon.png" alt="ImageSearch Icon">
 
 ### A Flickr image search app for iOS.
 
